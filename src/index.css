@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-inline: 5px;
+}
+
+.card{
+    border: 2px solid #414143;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1{
+    margin-block: 30px;
+}
+h3{
+    font-size: 1.3rem;
+    padding: 4px;
+}
+p{
+    color: #414141;
+}
